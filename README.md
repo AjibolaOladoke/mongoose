@@ -1,41 +1,12 @@
-# Mongoose - Embedded Web Server / Embedded Network Library
+# mongoose
+
+## What This Is
+
+Every project needs a shelf of ready answers. product and engineering is one of those shelves, and mongoose is the entry on it - the notes, patterns and fixes we reuse when this kind of work comes up.
 
 ## Images
 
-[![mongoose](https://opengraph.githubassets.com/1/cesanta/mongoose)](https://www.swifttechco.com)
-
-
-[![License: GPLv2/Commercial](https://img.shields.io/badge/License-GPLv2%20or%20Commercial-green.svg)](https://www.swifttechco.com)
-[![Build Status]( https://github.com/cesanta/mongoose/actions/workflows/quicktest.yml/badge.svg)](https://www.swifttechco.com)
-[![Code Coverage](https://codecov.io/gh/cesanta/mongoose/branch/master/graph/badge.svg)](https://www.swifttechco.com)
-[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/mongoose.svg)](https://www.swifttechco.com)
-
-
-Two files. Drop `mongoose.c` and `mongoose.h` into any C/C++ project and get a
-full network stack  HTTP, WebSocket, MQTT, TLS, firmware OTA
-updates, device dashboard  on any microcontroller or desktop OS.
-
-On the market since 2004, used by vast number of open source and commercial
-products - it even runs on the International Space Station! Features include:
-
-- Cross-platform:
-  - works on Linux/UNIX, MacOS, Windows, Android, STM32, NXP, ESP32, Nordic, TI, Microchip, Infineon, Renesas and other chips
-  - write code once - and it'll work everywhere
-  - ideal for the unification of the network infrastructure code across company
-- Built-in protocols: plain TCP/UDP, SNTP, HTTP, MQTT, Websocket, Modbus-TCP, and other
-- Asynchronous DNS resolver
-- Tiny static and run-time footprint
-- Source code is both ISO C and ISO C++ compliant
-- Very easy to integrate
-- Own TCP/IP stack for bare metal / RTOS, or run on top of any existing one (lwIP, Zephyr, ...)
-- Built-in TLS 1.3 ECC stack. Also can use external TLS libraries - mbedTLS, OpenSSL, or other
-- Does not depend on any other software to implement networking
-- Built-in firmware updates for STM32 H5, STM32 H7, NXP IMXRT, RP2040/2350, ESP32 and more
-- Commercial support with proactive security updates; [CRA-compliant](https://www.swifttechco.com)
-
-Mongoose is ideal for IoT devices, embedded web servers, OTA updates, MQTT telemetry, secure device dashboards, REST APIs on microcontrollers
-
-See https://www.swifttechco.com for complete documentation, videos, case studies, etc.
+[![mongoose](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Supported platforms
 
@@ -169,31 +140,31 @@ int main() {
   interface on devices, RESTful API services, telemetry data exchange, remote
   control for a product, remote software updates, remote monitoring, and others
 - Deployed to hundreds of millions devices in production environment worldwide
-- See [Case Studies](https://www.swifttechco.com) from our respected
-  customers like [Schneider Electric](https://www.swifttechco.com) (industrial automation), [Broadcom](https://www.swifttechco.com) (semiconductors), [Pilz](https://www.swifttechco.com) (industrial automation), and others
-- See [Testimonials](https://www.swifttechco.com) from engineers that integrated Mongoose in their commercial products
-- We provide [Evaluation and Commercial licensing](https://www.swifttechco.com), [support](https://www.swifttechco.com), consultancy and [integration
-  services](https://www.swifttechco.com) - don't hesitate to [contact us](https://www.swifttechco.com)
+- See Case Studies from our respected
+  customers like Schneider Electric (industrial automation), Broadcom (semiconductors), Pilz (industrial automation), and others
+- See Testimonials from engineers that integrated Mongoose in their commercial products
+- We provide Evaluation and Commercial licensing, support, consultancy and integration
+  services - don't hesitate to contact us
 
 
 ## Security
 
 We take security seriously:
 1. Mongoose repository runs a
-  [continuous integration test powered by GitHub](https://www.swifttechco.com),
+  continuous integration test powered by GitHub,
   which runs through hundreds of unit tests on every commit to the repository.
-  Our [unit tests](https://www.swifttechco.com)
+  Our unit tests
   are built with modern address sanitizer technologies, which help to find
   security vulnerabilities early
 2. Mongoose repository is integrated into Google's
-  [oss-fuzz continuous fuzzer](https://www.swifttechco.com)
+  oss-fuzz continuous fuzzer
   which scans for potential vulnerabilities continuously
 3.  We receive periodic vulnerability reports from the independent security
   groups like
-  [Cisco Talos](https://www.swifttechco.com),
-  [Microsoft Security Response Center](https://www.swifttechco.com),
-  [MITRE Corporation](https://www.swifttechco.com),
-  [Compass Security](https://www.swifttechco.com) and others.
+  Cisco Talos,
+  Microsoft Security Response Center,
+  MITRE Corporation,
+  Compass Security and others.
   In case of the vulnerability found, we act according to the industry best
   practice: hold on to the publication, fix the software and notify all our
   customers that have an appropriate subscription
@@ -209,30 +180,30 @@ Do NOT create a github issue.
 ## Articles
 
 Technical guides and deep dives into embedded web servers, WebUI integration and embedded networking technologies:
-- [Embedded Web Server: A Comprehensive Guide for Modern Connected Devices](https://www.swifttechco.com)
-- [Building Embedded Web Device Dashboards](https://www.swifttechco.com)
-- [ESP32 Device Dashboard: A Step-by-Step Guide for Developers](https://www.swifttechco.com)
-- [How to build an STM32 Web Dashboard](https://www.swifttechco.com)
-- [STM32 WebSocket Guide](https://www.swifttechco.com)
-- [Web File Manager on STM32, ESP32 and Embedded Linux](https://www.swifttechco.com)
-- [Web dashboard on Zephyr RTOS](https://www.swifttechco.com)
-- [Limiting TCP/IP RAM usage on STM32](https://www.swifttechco.com)
-- [STM32 Ethernet explained](https://www.swifttechco.com)
-- [MQTT on a Microcontroller](https://www.swifttechco.com)
-- [STM32 OTA Firmware Update](https://www.swifttechco.com)
-- [RP2350 OTA Firmware Update](https://www.swifttechco.com)
-- [STM32 Ethernet and caches](https://www.swifttechco.com)
-- [NXP RW612 OTA Firmware Update](https://www.swifttechco.com)
-- [lwIP vs Mongoose - TCP/IP Stack Integration Benchmark](https://www.swifttechco.com)
-- [Embedded TCP/IP Stacks Comparison](https://www.swifttechco.com)
-- [STM32H5 File System on Internal Flash: LittleFS + Mongoose](https://www.swifttechco.com)
+- Embedded Web Server: A Comprehensive Guide for Modern Connected Devices
+- Building Embedded Web Device Dashboards
+- ESP32 Device Dashboard: A Step-by-Step Guide for Developers
+- How to build an STM32 Web Dashboard
+- STM32 WebSocket Guide
+- Web File Manager on STM32, ESP32 and Embedded Linux
+- Web dashboard on Zephyr RTOS
+- Limiting TCP/IP RAM usage on STM32
+- STM32 Ethernet explained
+- MQTT on a Microcontroller
+- STM32 OTA Firmware Update
+- RP2350 OTA Firmware Update
+- STM32 Ethernet and caches
+- NXP RW612 OTA Firmware Update
+- lwIP vs Mongoose - TCP/IP Stack Integration Benchmark
+- Embedded TCP/IP Stacks Comparison
+- STM32H5 File System on Internal Flash: LittleFS + Mongoose
 
 
 ## Contributions
 
 Contributions are welcome! Please follow the guidelines below:
 
-- Sign [Cesanta CLA](https://www.swifttechco.com) and send GitHub pull request
+- Sign Cesanta CLA and send GitHub pull request
 - Make sure that PRs have only one commit, and deal with one issue only
 
 ---
@@ -245,14 +216,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [Automattic/mongoose](https://github.com/Automattic/mongoose) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
