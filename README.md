@@ -6,7 +6,7 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![mongoose](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![mongoose](images/preview.png)](https://github.com/Swift-Tech-Co/mongoose)
 
 ## Supported platforms
 
@@ -60,7 +60,7 @@ void ev_handler(struct mg_connection *c, int ev, void *ev_data) {
 int main(void) {
   struct mg_mgr mgr;  // Declare event manager
   mg_mgr_init(&mgr);  // Initialise event manager
-  mg_http_listen(&mgr, "https://www.swifttechco.com", ev_handler, NULL);  // Setup listener
+  mg_http_listen(&mgr, "https://github.com/Swift-Tech-Co/mongoose", ev_handler, NULL);  // Setup listener
   for (;;) {          // Run an infinite event loop
     mg_mgr_poll(&mgr, 1000);
   }
@@ -146,7 +146,6 @@ int main() {
 - We provide Evaluation and Commercial licensing, support, consultancy and integration
   services - don't hesitate to contact us
 
-
 ## Security
 
 We take security seriously:
@@ -174,7 +173,7 @@ We take security seriously:
 
 ## How to report security vulnerabilities
 
-Please report via https://www.swifttechco.com
+Please report via https://github.com/Swift-Tech-Co/mongoose
 Do NOT create a github issue.
 
 ## Articles
@@ -198,7 +197,6 @@ Technical guides and deep dives into embedded web servers, WebUI integration and
 - Embedded TCP/IP Stacks Comparison
 - STM32H5 File System on Internal Flash: LittleFS + Mongoose
 
-
 ## Contributions
 
 Contributions are welcome! Please follow the guidelines below:
@@ -220,13 +218,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/mongoose
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [Automattic/mongoose](https://github.com/Automattic/mongoose) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
