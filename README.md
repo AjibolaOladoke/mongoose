@@ -248,3 +248,11 @@ Compiled and maintained from upstream [Automattic/mongoose](https://github.com/A
 ---
 
 Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
+
+## Sources
+
+Compiled and maintained from upstream [Automattic/mongoose](https://github.com/Automattic/mongoose) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
